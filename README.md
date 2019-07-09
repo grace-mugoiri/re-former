@@ -1,24 +1,40 @@
-# README
+# Forms 
+# Ruby on Rails User application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. For more information [Odin-Rails-Forms]
+(https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems:
 
-* System dependencies
+```
+$ bundle install --without production
+```
 
-* Configuration
+Next, migrate the database:
 
-* Database creation
+```
+$ rails db:migrate
+```
 
-* Database initialization
+after that run the server from terminal in the root directory of the project
 
-* How to run the test suite
+```
+$ rails server
+```
+you can now create user or update it by openning your localhost
 
-* Services (job queues, cache servers, search engines, etc.)
+ http://localhost:3000/users/new
+ http://localhost:3000/users/1/edit use this link after creating your first user!
 
-* Deployment instructions
 
-* ...
+# Authors
+
+* **Yunus Emre Aybey** - [YemreAybey](https://github.com/YemreAybey)
+* **Grace Mugoiri** - [Grace](https://github.com/grace-mugoiri)
+
+
+
+
+
